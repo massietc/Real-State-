@@ -1,1 +1,148 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Aureon Estates | Luxury Real Estate</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor"></div>
+
+  <header class="nav">
+    <a href="#" class="logo">AUREON ESTATES</a>
+    <nav>
+      <a href="#residence">Residence</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero fullscreen">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/house-01.jpg">
+        <source src="assets/hero-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">Private Luxury Residence</p>
+        <h1 class="hero-title reveal">
+          A cinematic home<br />
+          above the ordinary.
+        </h1>
+        <p class="hero-text reveal">
+          Designed for silence, privacy, and timeless living.
+        </p>
+      </div>
+
+      <div class="scroll-indicator">
+        <span></span>
+        Scroll
+      </div>
+    </section>
+
+    <section id="residence" class="intro fullscreen">
+      <div class="intro-text">
+        <p class="eyebrow reveal">The Residence</p>
+        <h2 class="section-title reveal">
+          Architecture shaped by light, space, and calm.
+        </h2>
+      </div>
+
+      <div class="intro-image image-expand">
+        <img src="assets/house-01.jpg" alt="Luxury house exterior" />
+      </div>
+    </section>
+
+    <section class="split fullscreen">
+      <div class="split-image parallax-image">
+        <img src="assets/house-02.jpg" alt="Luxury living room" />
+      </div>
+
+      <div class="split-content">
+        <p class="eyebrow reveal">Interior</p>
+        <h2 class="section-title reveal">
+          Minimal interiors with a warm cinematic atmosphere.
+        </h2>
+        <p class="body-text reveal">
+          Every room is composed with clean lines, soft contrast, and natural textures.
+        </p>
+      </div>
+    </section>
+
+    <section class="video-section fullscreen">
+      <video autoplay muted loop playsinline>
+        <source src="assets/interior-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-text">
+        <p class="eyebrow reveal">Experience</p>
+        <h2 class="section-title reveal">
+          Walk through a home made for quiet luxury.
+        </h2>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="detail-card">
+        <img src="assets/house-03.jpg" alt="Luxury kitchen" />
+        <div>
+          <p class="eyebrow reveal">Kitchen</p>
+          <h3 class="reveal">Stone, steel, and soft natural light.</h3>
+        </div>
+      </div>
+
+      <div class="detail-card reverse">
+        <img src="assets/house-04.jpg" alt="Luxury bedroom" />
+        <div>
+          <p class="eyebrow reveal">Bedroom</p>
+          <h3 class="reveal">A private retreat with hotel-level calm.</h3>
+        </div>
+      </div>
+
+      <div class="detail-card">
+        <img src="assets/house-05.jpg" alt="Luxury bathroom" />
+        <div>
+          <p class="eyebrow reveal">Bath</p>
+          <h3 class="reveal">A spa-like space built for slow mornings.</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery fullscreen">
+      <div class="gallery-header">
+        <p class="eyebrow reveal">Gallery</p>
+        <h2 class="section-title reveal">A collection of refined spaces.</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/house-06.jpg" alt="Luxury pool" /></div>
+        <div class="gallery-item tall"><img src="assets/house-07.jpg" alt="Luxury home aerial" /></div>
+        <div class="gallery-item"><img src="assets/house-08.jpg" alt="Luxury detail" /></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact fullscreen">
+      <p class="eyebrow reveal">Private Showing</p>
+      <h2 class="contact-title reveal">
+        Schedule a cinematic viewing experience.
+      </h2>
+      <a href="mailto:hello@example.com" class="cta reveal">Request Showing</a>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
